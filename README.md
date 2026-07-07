@@ -1,4 +1,4 @@
-# LSE QR Converter
+# QR Converter
 
 > 엑셀의 URL 목록을 한 번에 QR 코드 이미지로 변환하는 Windows 유틸리티
 
@@ -12,7 +12,7 @@
 
 ## 📦 다운로드
 
-**[⬇️ 최신 버전 다운로드 (LSE_QR_Converter.exe)](../../releases/latest)**
+**[⬇️ 최신 버전 다운로드 (QR_Converter.exe)](../../releases/latest)**
 
 > 첫 실행 시 Windows SmartScreen 경고가 뜨면 **추가 정보 → 실행**을 눌러 주세요. (서명되지 않은 실행 파일의 일반적인 안내입니다)
 
@@ -23,7 +23,7 @@
 - 📋 **엑셀 기반 일괄 변환** — `Source URL` / `QR Code Name` 두 컬럼만 채우면 끝
 - 📥 **엑셀 템플릿 다운로드** — 프로그램에서 바로 양식 생성
 - 📁 **저장 폴더 · 확장자 선택** — PNG(기본) / JPG
-- 🎛️ **QR 속성 조절** — 크기(box_size 1~50), 테두리(border 0~20)
+- 🎛️ **QR 속성 조절** — 크기(box_size 1\~50), 테두리(border 0\~20)
 - 📊 **실시간 진행 표시** — Progress bar + `n / m` 카운터 + 상세 로그
 - 📝 **로그 자동 저장** — exe 옆 `log/` 폴더에 timestamp 파일로 기록
 - 🔒 **안전한 취소** — 작업 중 닫기 시 확인 팝업(팝업 중 작업 일시정지)
@@ -31,7 +31,7 @@
 
 ## 🚀 사용 방법
 
-1. `LSE_QR_Converter.exe` 실행
+1. `QR_Converter.exe` 실행
 2. **엑셀 템플릿 다운로드**로 양식을 받아 URL과 이미지 이름 작성
 
    | Source URL | QR Code Name |
@@ -53,7 +53,7 @@ pip install -r requirements.txt
 # 개발 실행
 python src/main.py
 
-# exe 빌드 (산출물: dist/LSE_QR_Converter.exe)
+# exe 빌드 (산출물: dist/QR_Converter.exe)
 build.bat
 ```
 
