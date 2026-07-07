@@ -34,8 +34,8 @@
 1. `QR_Code_Converter.exe` 실행
 2. **엑셀 템플릿 다운로드**로 양식을 받아 URL과 이미지 이름 작성
 
-   | Source URL | QR Code Name |
-   |---|---|
+   | Source URL                  | QR Code Name |
+   |-----------------------------|---|
    | https://example.com/event/1 | event_qr_01 |
    | https://example.com/event/2 | event_qr_02 |
 
