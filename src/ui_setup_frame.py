@@ -28,7 +28,7 @@ class SetupFrame(ttk.Frame):
     def _build(self) -> None:
         self.columnconfigure(1, weight=1)
 
-        title = ttk.Label(self, text="LSE QR Converter", font=("", 14, "bold"))
+        title = ttk.Label(self, text="QR Code Converter", font=("", 14, "bold"))
         title.grid(row=0, column=0, columnspan=3, sticky="w", pady=(0, 14))
 
         # 엑셀 파일

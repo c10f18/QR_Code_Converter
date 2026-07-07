@@ -31,7 +31,7 @@
 
 ## 🚀 사용 방법
 
-1. `QR__Code_Converter.exe` 실행
+1. `QR_Code_Converter.exe` 실행
 2. **엑셀 템플릿 다운로드**로 양식을 받아 URL과 이미지 이름 작성
 
    | Source URL | QR Code Name |
@@ -53,7 +53,7 @@ pip install -r requirements.txt
 # 개발 실행
 python src/main.py
 
-# exe 빌드 (산출물: dist/QR__Code_Converter.exe)
+# exe 빌드 (산출물: dist/QR_Code_Converter.exe)
 build.bat
 ```
 

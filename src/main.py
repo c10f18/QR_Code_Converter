@@ -1,4 +1,4 @@
-"""LSE QR Converter 엔트리포인트 — 창 생성 및 화면 전환."""
+"""QR Code Converter 엔트리포인트 — 창 생성 및 화면 전환."""
 import tkinter as tk
 
 from ui_progress_frame import ProgressFrame
@@ -8,7 +8,7 @@ from ui_setup_frame import SetupFrame
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("LSE QR Converter")
+        self.title("QR Code Converter")
         self.geometry("560x520")
         self.minsize(560, 520)
 
