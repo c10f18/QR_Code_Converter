@@ -12,7 +12,7 @@
 
 ## 📦 다운로드
 
-**[⬇️ 최신 버전 다운로드 (QR_Converter.exe)](../../releases/latest)**
+**[⬇️ 최신 버전 다운로드 (QR_Code_Converter.exe)](../../releases/latest)**
 
 > 첫 실행 시 Windows SmartScreen 경고가 뜨면 **추가 정보 → 실행**을 눌러 주세요. (서명되지 않은 실행 파일의 일반적인 안내입니다)
 
@@ -31,7 +31,7 @@
 
 ## 🚀 사용 방법
 
-1. `QR_Converter.exe` 실행
+1. `QR__Code_Converter.exe` 실행
 2. **엑셀 템플릿 다운로드**로 양식을 받아 URL과 이미지 이름 작성
 
    | Source URL | QR Code Name |
@@ -53,7 +53,7 @@ pip install -r requirements.txt
 # 개발 실행
 python src/main.py
 
-# exe 빌드 (산출물: dist/QR_Converter.exe)
+# exe 빌드 (산출물: dist/QR__Code_Converter.exe)
 build.bat
 ```
 
